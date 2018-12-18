@@ -1,3 +1,5 @@
+## Feature
+1. kafka leader election
 ## Requirement
 jdk1.8+
 ## Run
