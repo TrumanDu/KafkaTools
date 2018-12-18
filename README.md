@@ -21,13 +21,13 @@ Built-In Commands
         stacktrace: Display the full stacktrace of the last error.
 
 Kafka Leader Election
-        backup-leader-info: backup-leader-info --broker 10.16.238.101:8092
-        cancel-broker-leader: cancel-broker-leader --broker 10.16.238.101:8092 --zookeeper 10.16.238.101:8181 --broker-id 0 --kafka-install-home /data/bigdata/confluent-3.2.0
-        cancel-broker-leader-by-topic: cancel-broker-leader-by-topic --broker 10.16.238.101:8092 --zookeeper 10.16.238.101:8181 --broker-id 0 --topic trumantest --kafka-install-home /data/bigdata/confluent-3.2.0
-        generate-topics: generate-topics --zookeeper 10.16.238.101:8181
-        reassign-partitions: reassign-partitions --broker 10.16.238.101:8092 --broker-id 0
-        reassign-partitions-by-topic: reassign-partitions-by-topic --broker 10.16.238.101:8092 --broker-id 0 --topic kafkatopic
-        reassign-partitions-by-topics: reassign-partitions-by-topics --broker 10.16.238.101:8092 --broker-id 0 --topics-json-file topics.json
+        backup-leader-info: backup-leader-info --broker 192.168.0.101:8092
+        cancel-broker-leader: cancel-broker-leader --broker 192.168.0.101:8092 --zookeeper 192.168.0.101:8181 --broker-id 0 --kafka-install-home /data/bigdata/confluent-3.2.0
+        cancel-broker-leader-by-topic: cancel-broker-leader-by-topic --broker 192.168.0.101:8092 --zookeeper 192.168.0.101:8181 --broker-id 0 --topic trumantest --kafka-install-home /data/bigdata/confluent-3.2.0
+        generate-topics: generate-topics --zookeeper 192.168.0.101:8181
+        reassign-partitions: reassign-partitions --broker 192.168.0.101:8092 --broker-id 0
+        reassign-partitions-by-topic: reassign-partitions-by-topic --broker 192.168.0.101:8092 --broker-id 0 --topic kafkatopic
+        reassign-partitions-by-topics: reassign-partitions-by-topics --broker 192.168.0.101:8092 --broker-id 0 --topics-json-file topics.json
 
 ```
 ## Tips
